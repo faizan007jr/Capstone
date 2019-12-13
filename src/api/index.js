@@ -3,7 +3,7 @@ import VueResource from "vue-resource";
 
 Vue.use(VueResource);
 
-const API = "http://localhost:3000/api/";
+const API = "https://trash-treasure.herokuapp.com/api/";
 
 const ProductListResource = Vue.resource(API + "products");
 
